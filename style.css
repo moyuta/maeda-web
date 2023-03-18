@@ -18,7 +18,7 @@ header{
     display: flex;
     align-items: center;
 }
-p{
+header p{
     font-family: 'Comic Sans MS',sans-serif;
     margin: 0;
     padding: 0;
@@ -45,19 +45,66 @@ a:hover{
     color: blue;
     text-decoration:underline
 }
-.main1-image{
+.main1{
     margin-top: 90px;
     width: 100%;
-    height: 750px;
+    height: 670px;
     background-color: #CE5230;
     font-family: 'Comic Sans MS',sans-serif;
     color: white;
     font-size: 26px;
     text-align: center;
     justify-content: center;
+    border-bottom: solid 4px#807F7D;
 }
 .main2{
     background-color: #DAD2C4;
     width: 100%;
+    height: 600px;
+    border-bottom: solid 4px#807F7D;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.main2 .profile p{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 60px;
+    margin-top: -80px;
+}
+table{
+    border: solid 3px #807F7D;
+    background-color: #CE5230;
+    color: white;
+    width: 550px;
+    padding: 30px;
+}
+td{
+    word-wrap: break-word;
+    padding: 5px;
+}
+.main3{
+    background-color: #DAD2C4;
+    width: 100%;
     height: 750px;
+    border-bottom: solid 4px#807F7D;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.hyoudai{
+    text-align: center;
+    font-size: 28px;
+    color: #CE5230;
+}
+.block{
+    width: 400px;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
